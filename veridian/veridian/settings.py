@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-al#z__*0nlrr6=vuap($c!i52-+)(^k_jyb@gsfe$mjj-&^*w^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['veridian.herokuapp.com']
 
 
 # Application definition
